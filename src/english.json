@@ -5,30 +5,39 @@
     "contact": "Feel free to reach out through my email or LinkedIn profile if you’d like to connect.",
     "ysearch": {
         "title": "Ysearch",
+        "IdProject": {
+            "step 1" : "step 1",
+            "step 2" : "step 2",
+            "image": "../images/ysearch.png"
+        },
         "Id": {
             "summary": "yesearch Id summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Ysearch",
+            "title": "Ysearch: BYU Library Research Guide",
+            "subTitle": "BYU Library",
             "image": "../images/ysearch.png",
             "description": "ID ysearch Description",
             "learned": ["one", "two", "three"]
         },
         "Dev": {
             "summary": " yesearch Dev summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Ysearch",
+            "title": "Ysearch: BYU Library Research Guide",
+            "subTitle": "BYU Library",
             "image": "../images/ysearch.png",
             "description": "Dev ysearch Description",
             "learned": ["one", "two", "three"]
         },
         "Ux": {
             "summary": "yesearch, UI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip,Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Ysearch",
+            "title": "Ysearch: BYU Library Research Guide",
+            "subTitle": "BYU Library",
             "image": "../images/ysearch.png",
             "description": "Ux ysearch Description",
             "learned": ["one", "two", "three"]
         },
         "Ai": {
             "summary": "yesearch AI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Ysearch",
+            "title": "Ysearch: BYU Library Research Guide",
+            "subTitle": "BYU Library",
             "image": "../images/ysearch.png",
             "description": "Ai ysearch Description",
             "learned": ["one", "two", "three"]
@@ -68,44 +77,52 @@
     "chatbot": {
         "Id": {
             "summary": "topic, Id summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
-            "image": "../images/chatbot.png"
+            "title": "Topic Development Chatbot",
+            "image": "../images/chatbot.png",
+            "description": "Designer and Developer",
+            "learned": ["one", "two", "three"]
         },
         "Dev": {
             "summary": "topic, Ded ev summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
-            "image": "../images/chatbot.png"
+            "title": "Topic Development Chatbot",
+            "image": "../images/chatbot.png",
+            "description": "Designer and Developer",
+            "learned": ["one", "two", "three"]
         },
         "Ux": {
             "summary": "topic, ed UI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip,Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
-            "image": "../images/chatbot.png"
+            "title": "Topic Development Chatbot",
+            "image": "../images/chatbot.png",
+            "description": "Designer and Developer",
+            "learned": ["one", "two", "three"]
         },
         "Ai": {
             "summary": "topic, ed AI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
-            "image": "../images/chatbot.png"
+            "title": "Topic Development Chatbot",
+            "image": "../images/chatbot.png",
+            "description": "Designer and Developer",
+            "learned": ["one", "two", "three"]
         }
     },
     "math": {
         "Id": {
             "summary": "math topic, Id summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
+            "title": "Everybody Math App",
             "image": "../images/math.png"
         },
         "Dev": {
             "summary": "math topic, Ded ev summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
+            "title": "Everybody Math App",
             "image": "../images/math.png"
         },
         "Ux": {
             "summary": " math topic, ed UI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip,Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
+            "title": "Everybody Math App",
             "image": "../images/math.png"
         },
         "Ai": {
             "summary": "mathtopic, ed AI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
+            "title": "Everybody Math App",
             "image": "../images/math.png"
         }
     }

@@ -37,7 +37,7 @@ const HomePage = ({activeSection, setActiveSection, project, setProject}) => {
           <p>
             Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip
           </p>
-          <Button variant="primary">
+          <Button style={{ backgroundColor: '#3159F5', borderColor: '#3159F5' }}>
           {/* <Button style={{ backgroundColor: '#add8e6', borderColor: '#add8e6' }} variant="primary"> */}
             <span className="text-white text-decoration-none"  >About Me</span>
           </Button>

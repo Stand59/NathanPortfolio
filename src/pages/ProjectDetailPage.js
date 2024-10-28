@@ -2,6 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import content from '../english.json';
+import LeftPhoto from '../components/LeftPhoto';
+import RightPhoto from '../components/RightPhoto';
 
 const ProjectDetailPage = ({activeSection, project}) => {
 
@@ -48,6 +50,9 @@ const ProjectDetailPage = ({activeSection, project}) => {
           ))}
         </ul>
       </Row>
+      <LeftPhoto selection={project} activeSection={activeSection}></LeftPhoto>
+      <RightPhoto selection={project} activeSection={activeSection}></RightPhoto>
+      {/* <LeftPhoto></LeftPhoto> */}
     </Container>
    
   );
