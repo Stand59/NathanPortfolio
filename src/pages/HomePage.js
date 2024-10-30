@@ -2,20 +2,33 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import LeftPhoto from '../components/LeftPhoto';
 import RightPhoto from '../components/RightPhoto';
+import { Link, useNavigate } from 'react-router-dom';
 
 const HomePage = ({activeSection, setActiveSection, project, setProject}) => {
   // State variable to track the active section
   
   const projects = {
-    "Id": ["ysearch", "edtech", "chatbot", "math"], 
-    "Dev":["ysearch", "chatbot",  "math", "chatbot" ], 
-    "Ux":["edtech", "edtech", "ysearch", "edtech"],
-    "Ai":["ysearch", "edtech", "ysearch", "edtech"]
+    "Id": ["ysearch", "edtech"], 
+    "Dev":["math", "chatbot" ], 
+    "Ux":["chatbot"],
+    "Ai":["chatbot"]
   }
   const selection0 = projects[activeSection][0];
   const selection1 = projects[activeSection][1];
   const selection2 = projects[activeSection][2];
   const selection3 = projects[activeSection][3];
+
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate(`/about`); // Navigate to the project detail page
+  };
+
+  const handleButtonClick2 = (selection) => {
+    setProject(selection); // Set the project state variable
+    navigate(`/project/${selection}`); // Navigate to the project detail page
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
 
   return (
     <Container className="mt-5">
@@ -35,9 +48,9 @@ const HomePage = ({activeSection, setActiveSection, project, setProject}) => {
           <h1>Nathan Standing</h1>
           <h2 className="text-muted">Instructional Designer</h2>
           <p>
-            Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip
+          From our very first breath, learning is a natural process. My purpose is to create learning experiences that thoughtfully facilitate and enhance this wonderful journey.
           </p>
-          <Button style={{ backgroundColor: '#3159F5', borderColor: '#3159F5' }}>
+          <Button onClick={handleButtonClick} style={{ backgroundColor: '#3159F5', borderColor: '#3159F5' }}>
           {/* <Button style={{ backgroundColor: '#add8e6', borderColor: '#add8e6' }} variant="primary"> */}
             <span className="text-white text-decoration-none"  >About Me</span>
           </Button>
@@ -77,20 +90,6 @@ const HomePage = ({activeSection, setActiveSection, project, setProject}) => {
         <Col xs={2} md={2}>
           <Button 
             variant="link" 
-            onClick={() => setActiveSection('Ux')}
-            style={{ 
-              color: 'black', 
-              textDecoration: 'none',
-              borderBottom: activeSection === 'Ux' ? '3px solid blue' : 'none',
-              paddingBottom: '5px'
-            }}
-          >
-            Research & UX Testing
-          </Button>
-        </Col>
-        <Col xs={2} md={2}>
-          <Button 
-            variant="link" 
             onClick={() => setActiveSection('Ai')}
             style={{ 
               color: 'black', 
@@ -102,12 +101,27 @@ const HomePage = ({activeSection, setActiveSection, project, setProject}) => {
             Artifical Inteligence
           </Button>
         </Col>
+        <Col xs={2} md={2}>
+          <Button 
+            variant="link" 
+            onClick={() => setActiveSection('Ux')}
+            style={{ 
+              color: 'black', 
+              textDecoration: 'none',
+              borderBottom: activeSection === 'Ux' ? '3px solid blue' : 'none',
+              paddingBottom: '5px'
+            }}
+          >
+            Research & UX Testing
+          </Button>
+        </Col>
         <Col xs={8} md={8} ></Col>
       </Row>
       <Row>
         <hr></hr>
       </Row>
-
+      <br></br>
+      <br></br>
       {/* Content Display Based on Active Section */}
       {/* <Row className="mt-5">
         <Col>
@@ -118,11 +132,49 @@ const HomePage = ({activeSection, setActiveSection, project, setProject}) => {
         </Col>
       </Row> */}
       <Row>
-        <RightPhoto selection={selection0} activeSection={activeSection} project={project} setProject={setProject}></RightPhoto>
-        <LeftPhoto selection={selection1} activeSection={activeSection} project={project} setProject={setProject} ></LeftPhoto>
-        <RightPhoto selection={selection2} activeSection={activeSection} project={project} setProject={setProject}></RightPhoto>
-        <LeftPhoto selection={selection3} activeSection={activeSection} project={project} setProject={setProject}></LeftPhoto>
+      {activeSection === "Dev" && (
+        <p>
+        In addition to my development work on{" "}
+        <span onClick={() => handleButtonClick2('ysearch')} style={{ color: 'blue', cursor: 'pointer', textDecoration: 'underline' }}>Ysearch</span>{" "}
+        and{" "}
+        <span onClick={() => handleButtonClick2('edtech')} style={{ color: 'blue', cursor: 'pointer', textDecoration: 'underline' }}>Edtech Books</span> I have done the following development:
+      </p>
+      )}
       </Row>
+      <Row>
+  {selection0 && (
+    <RightPhoto 
+      selection={selection0} 
+      activeSection={activeSection} 
+      project={project} 
+      setProject={setProject} 
+    />
+  )}
+  {selection1 && (
+    <LeftPhoto 
+      selection={selection1} 
+      activeSection={activeSection} 
+      project={project} 
+      setProject={setProject} 
+    />
+  )}
+  {selection2 && (
+    <RightPhoto 
+      selection={selection2} 
+      activeSection={activeSection} 
+      project={project} 
+      setProject={setProject} 
+    />
+  )}
+  {selection3 && (
+    <LeftPhoto 
+      selection={selection3} 
+      activeSection={activeSection} 
+      project={project} 
+      setProject={setProject} 
+    />
+  )}
+</Row>
     </Container>
   );
 };

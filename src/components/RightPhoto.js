@@ -11,6 +11,7 @@ const RightPhoto= ({activeSection, selection, setProject,}) => {
   const handleButtonClick = () => {
     setProject(selection); // Set the project state variable
     navigate(`/project/${selection}`); // Navigate to the project detail page
+    window.scrollTo(0, 0); // Scroll to the top of the page
   };
 
   return (
@@ -19,7 +20,8 @@ const RightPhoto= ({activeSection, selection, setProject,}) => {
         <Col md={6} className="text-md-start text-center">
         <h2>{content[selection][activeSection].title}</h2>
         <h4>{active.subTitle}</h4>
-        <p>{content[selection][activeSection].summary}</p>
+        <p>{active.summary1}</p>
+        <p>{active.summary2}</p>
           <Button style={{ backgroundColor: '#3159F5', borderColor: '#4694F2' }} onClick={handleButtonClick}>
             <span className="text-white text-decoration-none">Project Details</span>
           </Button>
@@ -29,7 +31,7 @@ const RightPhoto= ({activeSection, selection, setProject,}) => {
             src={content[selection][activeSection].image}
             alt="Nathan Standing"
             className="img-fluid"
-            style={{ width: '80%', height: '80%', objectFit: 'cover' }}
+            style={{ maxHeight: '400px', objectFit: 'contain', float: 'left' }}
           />
         </Col>
       </Row>

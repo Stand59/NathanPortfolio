@@ -5,22 +5,23 @@
     "contact": "Feel free to reach out through my email or LinkedIn profile if you’d like to connect.",
     "ysearch": {
         "title": "Ysearch",
-        "IdProject": {
-            "step 1" : "step 1",
-            "step 2" : "step 2",
-            "image": "../images/ysearch.png"
-        },
         "Id": {
-            "summary": "yesearch Id summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Ysearch: BYU Library Research Guide",
+            "summary1": "Imagine you're a university student. It’s late in the evening, and you’re working on a research paper. You need help learning how to access academic articles effectively. What kind of resource would help students learn the basics of academic research?",
+            "summary2": "This question guided me in designing Ysearch, the general research guide for Brigham Young University’s library.  My goal was to identify the most essential information a student would need to conduct effective research.",
+            "title": "Ysearch: University Research Guide",
             "subTitle": "BYU Library",
             "image": "../images/ysearch.png",
             "description": "ID ysearch Description",
-            "learned": ["one", "two", "three"]
+            "role": "Project Manager & Primary Content Creator",
+            "learned": ["one", "two", "three"],
+            "impact" : "10,000 + students each year",
+            "team" : ["Stakeholders and Subject Experts: 4 subject librarians over library instruction", "UX Designer", "Animators"
+            ]
         },
         "Dev": {
-            "summary": " yesearch Dev summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Ysearch: BYU Library Research Guide",
+            "summary1": "Imagine you are a university student. It’s late in the evening, and you’re working on a research paper. You need help learning how to access academic articles effectively. What kind of resource would help students learn the basics of academic research?",
+            "summary2": "This question guided me in designing Ysearch, the general research guide for Brigham Young University’s library.  My goal was to identify the most essential information a student would need to conduct effective research.",
+            "title": "Ysearch: University Research Guide",
             "subTitle": "BYU Library",
             "image": "../images/ysearch.png",
             "description": "Dev ysearch Description",
@@ -28,7 +29,7 @@
         },
         "Ux": {
             "summary": "yesearch, UI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip,Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Ysearch: BYU Library Research Guide",
+            "title": "Ysearch: University Research Guide",
             "subTitle": "BYU Library",
             "image": "../images/ysearch.png",
             "description": "Ux ysearch Description",
@@ -36,7 +37,7 @@
         },
         "Ai": {
             "summary": "yesearch AI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Ysearch: BYU Library Research Guide",
+            "title": "Ysearch: University Research Guide",
             "subTitle": "BYU Library",
             "image": "../images/ysearch.png",
             "description": "Ai ysearch Description",
@@ -44,31 +45,34 @@
         }
     },
     "edtech": {
-        "title": "EdTech Books Boot Camps",
+        "title": "EdTech Books Facilitator Boot Camp",
+        "subTitle": "EdTech Books",
         "Id": {
-            "summary": "ed Id summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
+            "summary1": "As the designer and developer of the EdTech Books Student Facilitator Boot Camp, I created a training program to equip student facilitators with the skills to produce impactful content under faculty guidance. I interviewed student facilitators to understand their needs, ensuring the boot camp’s design addressed real challenges they faced with the platform interface and instructional design principles. ",
+            "summary2":"This Open Educational Resource (OER) provides essential, practical training to help a diverse group of content creators produce high-quality educational materials on EdTech Books.",
+            "title": "EdTech Books Facilitator Boot Camp",
+            "subTitle": "EdTech Books",
             "image": "../images/edTech.png",
             "description": "ID edtech Description",
             "learned": ["one", "two", "three"]
         },
         "Dev": {
             "summary": "Ded ev summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
+            "title": "EdTech Books Boot Camps",
             "image": "../images/edTech.png",
             "description": "dev edtech Description",
             "learned": ["one", "two", "three"]
         },
         "Ux": {
             "summary": "ed UI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip,Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
+            "title": "EdTech Books Boot Camps",
             "image": "../images/edTech.png",
             "description": "ux edtech Description",
             "learned": ["one", "two", "three"]
         },
         "Ai": {
             "summary": "ed AI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Edtech",
+            "title": "EdTech Books Boot Camps",
             "image": "../images/edTech.png",
             "description": "ai edtech Description",
             "learned": ["one", "two", "three"]
@@ -76,30 +80,36 @@
     },
     "chatbot": {
         "Id": {
-            "summary": "topic, Id summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
+            "summary1": "We found that some First-Year Writing students were discouraged by the challenge of selecting a research topic. To support them, I designed and implemented a conversational chatbot that guides students in exploring and narrowing down possible topics for their research papers",
             "title": "Topic Development Chatbot",
+            "subTitle": "BYU Library",
             "image": "../images/chatbot.png",
             "description": "Designer and Developer",
             "learned": ["one", "two", "three"]
         },
         "Dev": {
-            "summary": "topic, Ded ev summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
+            "summary1": "We found that some First-Year Writing students were discouraged by the challenge of selecting a research topic. To support them, I designed and implemented a conversational chatbot that guides students in exploring and narrowing down possible topics for their research papers",
+            "summary2": "I created a customized chatbot using HTML, CSS, and JavaScript, powered by the ChatGPT API, to deliver a unique and effective user experience. I iterated through and tested various AI prompts to optimize the learning experience for students.",
             "title": "Topic Development Chatbot",
-            "image": "../images/chatbot.png",
+            "subTitle": "BYU Library",
+            "image": "../images/chatbotUX.png",
             "description": "Designer and Developer",
             "learned": ["one", "two", "three"]
         },
         "Ux": {
-            "summary": "topic, ed UI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip,Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Topic Development Chatbot",
+            "summary1": "We found that some First-Year Writing students were discouraged by the challenge of selecting a research topic. To support them, I designed and implemented a conversational chatbot that guides students in exploring and narrowing down possible topics for their research papers",
+            "summary2": "To evaluate this product, I observed First-Year Writing students using it and gathered insights from their experiences. This feedback informed improvements to the tool. I also studied a research question related to its effectiveness and presented my findings at LOEX.",
+            "subTitle": "BYU Library",
             "image": "../images/chatbot.png",
             "description": "Designer and Developer",
             "learned": ["one", "two", "three"]
         },
         "Ai": {
-            "summary": "topic, ed AI summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
+            "summary1": "We found that some First-Year Writing students were discouraged by the challenge of selecting a research topic. To support them, I designed and implemented a conversational chatbot that guides students in exploring and narrowing down possible topics for their research papers",
+            "summary2": "I created a customized chatbot using HTML, CSS, and JavaScript, powered by the ChatGPT API, to deliver a unique and effective user experience. I iterated through and tested various AI prompts to optimize the learning experience for students.",
             "title": "Topic Development Chatbot",
-            "image": "../images/chatbot.png",
+            "subTitle": "BYU Library",
+            "image": "../images/chatbotUX.png",
             "description": "Designer and Developer",
             "learned": ["one", "two", "three"]
         }
@@ -111,8 +121,9 @@
             "image": "../images/math.png"
         },
         "Dev": {
-            "summary": "math topic, Ded ev summary, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip, Tenderloin landjaeger boudin venison ham hock picanha. Chicken leberkas flank picanha rump pig sausage. Bacon boudin tri-tip kielbasa pig shankle. Short loin pig bacon porchetta, fatback t-bone picanha ribeye drumstick ball tip",
-            "title": "Everybody Math App",
+            "summary1": "As a web developer for Everybody Math Fact Fluency, I have been a part of creating interactive and user-friendly interfaces to support both students and mentors in tracking and enhancing math fluency. I have been a part of developing the Mentor Portal and Dashboard, allowing parents and teachers to monitor student progress, assign new facts, and personalize learning settings.",
+            "summary2": "Additionally, I voiced and edited an instructional video demonstrating how to use the Mentor Dashboard, including steps for adding students and managing their settings. This video provides clear, accessible guidance to help mentors navigate essential features for supporting student progress.",
+            "title": "Everybody Math: Fact Fluency App",
             "image": "../images/math.png"
         },
         "Ux": {

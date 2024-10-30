@@ -14,9 +14,9 @@ const ProjectDetailPage = ({activeSection, project}) => {
       <Row>
         <h1>{content[project].title}</h1>
       </Row>
-      <Row className="align-items-center">
+      <Row className="align-items-left">
         <Col md={1}></Col>
-        <Col md={4} className="text-center">
+        <Col md={4} className="text-left">
           <Row>
             Description: {active.description}
           </Row>
@@ -24,13 +24,15 @@ const ProjectDetailPage = ({activeSection, project}) => {
             Objective: 
           </Row>
           <Row>
-            Impact: 
+            Impact: {active.impact}
           </Row>
           <Row>
-            Role:
+            Role: {active.role}
           </Row>
           <Row>
-            Team:
+            Team: {active.team && active.team.map((member, index) => (
+            <li key={index}>{member}</li>
+            ))}
           </Row>
         </Col>
         <Col md={7} className="text-center">
@@ -52,6 +54,7 @@ const ProjectDetailPage = ({activeSection, project}) => {
       </Row>
       <LeftPhoto selection={project} activeSection={activeSection}></LeftPhoto>
       <RightPhoto selection={project} activeSection={activeSection}></RightPhoto>
+      <LeftPhoto selection={project} activeSection={activeSection}></LeftPhoto>
       {/* <LeftPhoto></LeftPhoto> */}
     </Container>
    

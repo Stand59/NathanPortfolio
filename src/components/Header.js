@@ -1,13 +1,20 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'bootstrap/dist/js/bootstrap.bundle.min'; 
 
 const Header = () => {
+  const location = useLocation();
+  const isHomepage = location.pathname === '/';
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid d-flex align-items-center">
+        {!isHomepage && (
+            <NavLink to="/" className="me-3">
+                Back Home
+            </NavLink>
+          )}
           {/* <NavLink className="navbar-brand d-flex align-items-center" to="/">
             <img
               src="/images/profile.jpeg" 
